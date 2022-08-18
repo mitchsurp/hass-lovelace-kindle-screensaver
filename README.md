@@ -43,7 +43,8 @@ Home Assistant related stuff:
 | `SCALING`                 | `1`                                   | no       | yes      | Scaling factor, e.g. `1.5` to zoom in or `0.75` to zoom out                                                                                             |
 | `GRAYSCALE_DEPTH`         | `8`                                   | no       | yes      | Grayscale bit depth your kindle supports                                                                                                               |
 | `COLOR_MODE`              | `GrayScale`                           | no       | yes      | ColorMode to use, ex: `GrayScale`, or `TrueColor`.                                                                                                      |
-| `DITHER`                  | `false`                               | no       | yes      | Apply a dither to the images.                                                                                                                           |
+| `DITHER`                  | `false`                               | no       | yes      | Apply a dither to the images.
+| `DEBUG`                   | `false`                               | no       | no       | Enables Debug Mode
 
 **\* Array** means that you can set `HA_SCREENSHOT_URL_2`, `HA_SCREENSHOT_URL_3`, ... `HA_SCREENSHOT_URL_n` to render multiple pages within the same instance.
 If you use `HA_SCREENSHOT_URL_2`, you can also set `ROTATION_2=180`. If there is no `ROTATION_n` set, then `ROTATION` will be used as a fallback.
